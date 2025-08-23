@@ -117,3 +117,20 @@ every-season: affects every season (e.g., seasons 4-6 episodes 2-4 → s4x2, s4x
 ]
 ```
 </details>
+
+## Test it out
+These links are clickable in the browser
+
+### Searching for a show
+https://kavi.frii.site/search/series?name=Dexter
+
+
+### Searching for episodes
+https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854
+
+
+### Searching for episodes between season 3 and 6
+https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854&starting_season=3&ending_season=6
+
+### Searching for episodes between season 3 and 6 starting from episode 4 and ending in episode 8
+https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854&starting_season=3&ending_season=6&starting_episode=4&ending_episode=8
