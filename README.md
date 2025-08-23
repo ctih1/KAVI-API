@@ -134,3 +134,6 @@ https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854&starting_seas
 
 ### Searching for episodes between season 3 and 6 starting from episode 4 and ending in episode 8
 https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854&starting_season=3&ending_season=6&starting_episode=4&ending_episode=8
+
+### Searching for episodes 4-8 from seasons 3 through 6
+https://kavi.frii.site/search/episodes?id=542bb51b25b88ee7ebb71854&starting_season=3&ending_season=6&starting_episode=4&ending_episode=8&episode_filtering=every-season
