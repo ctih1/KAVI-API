@@ -17,7 +17,7 @@ router.get("/series", async (req: Request, res: Response) => {
 
     const showResult = await getShows({name: seriesName.toString()});
 
-    if(!showResult) {
+    if(showResult.length < 1) {
         res.status(404).json({error: 2, description: "Series not found!"});
         return;
     }
