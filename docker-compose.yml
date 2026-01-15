@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3230:3230"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
